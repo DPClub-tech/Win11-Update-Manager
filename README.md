@@ -33,3 +33,6 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/DPClub-tech/Win11-Upda
 # Запустить
 cd "$env:USERPROFILE\Desktop"
 powershell -ExecutionPolicy Bypass -File "Win11_Update_Manager.ps1"
+git clone https://github.com/DPClub-tech/Win11-Update-Manager.git
+cd Win11-Update-Manager
+powershell -ExecutionPolicy Bypass -File Win11_Update_Manager.ps1
